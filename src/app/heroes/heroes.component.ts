@@ -8,7 +8,7 @@ import { Horse } from '../horse';
 })
 export class HeroesComponent {
   horse: Horse = {
-    name: 'Роса',
+    name: 'Кваря',
     id: 1
   };
 }
