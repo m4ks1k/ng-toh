@@ -1,0 +1,6 @@
+<h2>Про {{ horse.name | uppercase }}</h2>
+<div><span> ID: </span> {{horse.id}} </div>
+<div>
+    <label for="name"> Имя лошади: </label> 
+    <input id="name" [(ngModel)]="horse.name" placeholder="name">
+</div>
