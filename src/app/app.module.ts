@@ -8,11 +8,11 @@ import { HorsesComponent } from './horses/horses.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HorsesComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    HorsesComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

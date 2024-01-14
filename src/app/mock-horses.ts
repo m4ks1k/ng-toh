@@ -9,5 +9,5 @@ export const HORSES: Horse[] = [
   { id: 17, name: 'Тучка' },
   { id: 18, name: 'Девясил' },
   { id: 19, name: 'Ольвеополия' },
-  { id: 20, name: 'Адриатика' }
+  { id: 20, name: 'Адриатика' },
 ];
