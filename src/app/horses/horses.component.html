@@ -8,11 +8,4 @@
     </li>
 </ul>
 
-<div *ngIf="selectedHorse">
-    <h2>Про {{selectedHorse.name | uppercase }}</h2>
-    <div>id: {{selectedHorse.id}}</div>
-    <div>
-      <label for="horse-name">Кличка лошади: </label>
-      <input id="horse-name" [(ngModel)]="selectedHorse.name" placeholder="кличка">
-    </div>
-  </div>
+<app-horse-detail [horse]="selectedHorse"></app-horse-detail>

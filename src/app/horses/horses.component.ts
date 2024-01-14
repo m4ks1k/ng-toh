@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 
 import { Horse } from '../horse';
 import { HORSES } from '../mock-horses';
+import { HorseDetailComponent } from '../horse-detail/horse-detail.component';
 
 @Component({
   standalone: true,
@@ -19,6 +20,7 @@ import { HORSES } from '../mock-horses';
     NgFor,
     NgIf,
     UpperCasePipe,
+    HorseDetailComponent, 
   ],
 })
 export class HorsesComponent {
